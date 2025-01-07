@@ -14,3 +14,12 @@ function division(g,h){
     return g / h;
 }
 console.log(division(5, 10));
+ let miCadena = "hola mundo"; 
+ let x = 42;
+ let carro = {
+    nombre: "bochito",
+    uso: 5,
+    esMio: true,
+ };
+ let listaDeNumeros = [1, 2, 3, 4, 5]
+ let esCasado = true;
