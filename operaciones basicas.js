@@ -23,3 +23,21 @@ console.log(division(5, 10));
  };
  let listaDeNumeros = [1, 2, 3, 4, 5]
  let esCasado = true;
+ for (let i = 0; i< 5; i++) {
+    console.log(i);
+ }
+ function imprimirLetras(cadena) {
+    for (let i = 0; i < cadena.length; i++){
+        console.log(cadena[i]);
+    }
+ }
+// imprimirLetras("hola");
+ function imprimirLista(arreglo){
+    for (let i = 0; i < arreglo.length; i++){
+        console.log(arreglo[i]);
+    }
+ }
+ // mprimirLista(["uva", "manzana", "platano"]);
+ imprimirLista('una cadena')
+ imprimirLetras(["uva", "manzana", "platano"])
+ 
