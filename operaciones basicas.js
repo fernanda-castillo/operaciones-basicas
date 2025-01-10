@@ -49,3 +49,12 @@ console.log(division(5, 10));
 
  }
  console.log(comparacion(40, 80))
+ function verificarPar(numero){
+    if (numero % 2 === 0){
+        console.log(numero + " es par");
+    } else {
+        console.log(numero + " es impar")
+    }
+ }
+ verificarPar(5);
+ verificarPar(8);
