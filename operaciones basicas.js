@@ -40,4 +40,12 @@ console.log(division(5, 10));
  // mprimirLista(["uva", "manzana", "platano"]);
  imprimirLista('una cadena')
  imprimirLetras(["uva", "manzana", "platano"])
- 
+ function comparacion(a, b){
+    if (a > b){
+        return a;
+    } else {
+        return b;
+    }
+
+ }
+ console.log(comparacion(40, 80))
