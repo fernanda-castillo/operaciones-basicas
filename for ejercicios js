@@ -7,3 +7,9 @@ for (let i = 0; i <= 100; i+=20){
 for (let i = 1000; i >= 0; i-=100){
     console.log(i);
 }
+function generarsecuencia(num, nume){
+for (let i = num; i <= nume; i++){
+    console.log(i);
+}
+}
+generarsecuencia(1, 10);
